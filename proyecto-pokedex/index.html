@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Pokédex</h1>
+      <input type="text" id="search" placeholder="Buscar Pokémon..." />
+    </header>
+    <main id="pokemon-list"></main>
+
+    <div id="pokemon-modal" class="modal">
+      <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <h2 id="modal-title"></h2>
+        <p><strong>Tipo:</strong> <span id="modal-type"></span></p>
+        <p><strong>Peso:</strong> <span id="modal-weight"></span></p>
+        <p><strong>Movimientos:</strong> <span id="modal-moves"></span></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
